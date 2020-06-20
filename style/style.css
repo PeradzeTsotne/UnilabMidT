@@ -1,0 +1,123 @@
+body {
+    color: #FAFAFA;
+}
+
+
+.header-container {
+    background-image: url(../img/Header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    padding: 76px 143px 0 67px;
+}
+
+.dis-f {
+    display: flex;
+}
+
+.navbar-box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 118px;
+    height: 37px;
+}
+
+.nav-li a {
+    margin: 50px;
+    color: #D9F0FF;
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.nav-li a:hover {
+    text-decoration: underline;
+    transition: ease 2s;
+
+}
+
+.title {
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.button-box {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 81px;
+
+
+}
+
+.button {
+
+    background-color: #325DFF;
+    color: #FFFFFF;
+    border: none;
+    width: 307px;
+    height: 72px;
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+/* section */
+.section-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.info-box {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+.info-box h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.info-box p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.content-box {
+    width: 100%;
+    height: 600px;
+
+}
+
+.content-box1 {
+    width: 100%;
+    height: 600px;
+
+    background-image: url(../img/Rectangle\ 2.png);
+    background-position: center;
+    background-size: cover;
+}
